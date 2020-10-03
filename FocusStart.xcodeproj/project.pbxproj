@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		691A60D68F9772996527B4E7 /* Pods_FocusStart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE791C3E9B3E4A0BCD27895 /* Pods_FocusStart.framework */; };
+		8FC4A4042528B6FF0055C41C /* EditCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4A4032528B6FF0055C41C /* EditCarViewController.swift */; };
+		8FC4A4062528B72C0055C41C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4A4052528B72C0055C41C /* DataService.swift */; };
+		8FC4A4082528B7480055C41C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4A4072528B7480055C41C /* Car.swift */; };
 		8FEC8A382527718D00D36684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC8A372527718D00D36684 /* AppDelegate.swift */; };
 		8FEC8A3A2527718D00D36684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC8A392527718D00D36684 /* SceneDelegate.swift */; };
 		8FEC8A3C2527718D00D36684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC8A3B2527718D00D36684 /* ViewController.swift */; };
@@ -16,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F89307FBC010C491BF0F87E /* Pods-FocusStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusStart.release.xcconfig"; path = "Target Support Files/Pods-FocusStart/Pods-FocusStart.release.xcconfig"; sourceTree = "<group>"; };
+		5FE791C3E9B3E4A0BCD27895 /* Pods_FocusStart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocusStart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC4A4032528B6FF0055C41C /* EditCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCarViewController.swift; sourceTree = "<group>"; };
+		8FC4A4052528B72C0055C41C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		8FC4A4072528B7480055C41C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		8FEC8A342527718D00D36684 /* FocusStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEC8A372527718D00D36684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FEC8A392527718D00D36684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		8FEC8A402527718E00D36684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FEC8A432527718E00D36684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FEC8A452527718E00D36684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E2D0A1527F8DC519234767 /* Pods-FocusStart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusStart.debug.xcconfig"; path = "Target Support Files/Pods-FocusStart/Pods-FocusStart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691A60D68F9772996527B4E7 /* Pods_FocusStart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				8FEC8A362527718D00D36684 /* FocusStart */,
 				8FEC8A352527718D00D36684 /* Products */,
+				B62DC5DB12CA0E4330F19369 /* Pods */,
+				E182CF2962889982A348CB2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +72,32 @@
 				8FEC8A372527718D00D36684 /* AppDelegate.swift */,
 				8FEC8A392527718D00D36684 /* SceneDelegate.swift */,
 				8FEC8A3B2527718D00D36684 /* ViewController.swift */,
+				8FC4A4032528B6FF0055C41C /* EditCarViewController.swift */,
+				8FC4A4052528B72C0055C41C /* DataService.swift */,
+				8FC4A4072528B7480055C41C /* Car.swift */,
 				8FEC8A3D2527718D00D36684 /* Main.storyboard */,
 				8FEC8A402527718E00D36684 /* Assets.xcassets */,
 				8FEC8A422527718E00D36684 /* LaunchScreen.storyboard */,
 				8FEC8A452527718E00D36684 /* Info.plist */,
 			);
 			path = FocusStart;
+			sourceTree = "<group>";
+		};
+		B62DC5DB12CA0E4330F19369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1E2D0A1527F8DC519234767 /* Pods-FocusStart.debug.xcconfig */,
+				3F89307FBC010C491BF0F87E /* Pods-FocusStart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E182CF2962889982A348CB2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FE791C3E9B3E4A0BCD27895 /* Pods_FocusStart.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FEC8A482527718E00D36684 /* Build configuration list for PBXNativeTarget "FocusStart" */;
 			buildPhases = (
+				FA6F99B9E9BE3CB0454DDA85 /* [CP] Check Pods Manifest.lock */,
 				8FEC8A302527718D00D36684 /* Sources */,
 				8FEC8A312527718D00D36684 /* Frameworks */,
 				8FEC8A322527718D00D36684 /* Resources */,
+				47F715484C1088B677F5CFC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +167,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47F715484C1088B677F5CFC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FocusStart/Pods-FocusStart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FocusStart/Pods-FocusStart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FocusStart/Pods-FocusStart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA6F99B9E9BE3CB0454DDA85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FocusStart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FEC8A302527718D00D36684 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8FEC8A3C2527718D00D36684 /* ViewController.swift in Sources */,
+				8FC4A4042528B6FF0055C41C /* EditCarViewController.swift in Sources */,
+				8FC4A4082528B7480055C41C /* Car.swift in Sources */,
 				8FEC8A382527718D00D36684 /* AppDelegate.swift in Sources */,
 				8FEC8A3A2527718D00D36684 /* SceneDelegate.swift in Sources */,
+				8FC4A4062528B72C0055C41C /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +363,7 @@
 		};
 		8FEC8A492527718E00D36684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E2D0A1527F8DC519234767 /* Pods-FocusStart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +383,7 @@
 		};
 		8FEC8A4A2527718E00D36684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F89307FBC010C491BF0F87E /* Pods-FocusStart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
